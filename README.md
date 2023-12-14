@@ -42,7 +42,7 @@ Let’s begin with [downloading the starter project](https://github.com/V8tr/Col
 
 When you run it, you see a simple collection view with 10000 cells - 100 sections, 100 items per section - each showing its index path.
 
-![Sticky Grid Collection View: Implementing From Scratch - Starter Project](/assets/images/posts/sticky-grid-collection-view/starter.png)
+![Sticky Grid Collection View: Implementing From Scratch - Starter Project](/assets/images/starter.png)
 
 Here are some important highlights to pinpoint in starter project:
 
@@ -52,7 +52,7 @@ Here are some important highlights to pinpoint in starter project:
 
 Here is how `StickyGridCollectionViewLayout` is set in interface builder:
 
-![Sticky Grid Collection View: Implementing From Scratch - Starter Project Setup](/assets/images/posts/sticky-grid-collection-view/starter-storyboard-grid-layout.png)
+![Sticky Grid Collection View: Implementing From Scratch - Starter Project Setup](/assets/images/starter-storyboard-grid-layout.png)
 
 ### Adding Horizontal and Vertical Scrolling
 
@@ -67,7 +67,7 @@ The square grid of the same size occupies `10000 x 10000 px`. Let’s override t
 
 Now run the project and play with the scroll. The result is next:
 
-![Sticky Grid Collection View: Implementing From Scratch - Collection view with both vertical and horizontal scrolling](/assets/images/posts/sticky-grid-collection-view/horizontal-and-vertical-scrolling.gif)
+![Sticky Grid Collection View: Implementing From Scratch - Collection view with both vertical and horizontal scrolling](/assets/images/horizontal-and-vertical-scrolling.gif)
 
 Collection view is smart about scrolling and adapts automatically to the content size of its layout. Although we have reached our the goal of simultaneous horizontal and vertical scroll, the cells placement does not seem to be correct.
 
@@ -185,7 +185,7 @@ The only thing that is left is small utility method that converts row and column
 
 Now you can run the app to see the result:
 
-![Sticky Grid Collection View: Implementing From Scratch - Collection view cells grid positioning](/assets/images/posts/sticky-grid-collection-view/grid-positioning.gif)
+![Sticky Grid Collection View: Implementing From Scratch - Collection view cells grid positioning](/assets/images/grid-positioning.gif)
 
 Another goal fulfilled! Let’s move on to adding sticky rows and columns to our collection view layout.
 
@@ -319,7 +319,7 @@ The code will not compile, because we need to implement `isItemSticky(at:)`. Add
 
 With that done, you are ready to see your hard work in action! Run the app and play around with it, and you will see it working as intended:
 
-![Sticky Grid Collection View: Implementing From Scratch - Final Demo](/assets/images/posts/sticky-grid-collection-view/sticky-demo.gif)
+![Sticky Grid Collection View: Implementing From Scratch - Final Demo](/assets/images/sticky-demo.gif)
 
 The last small that is left is to replace the hard coded content size with the dynamic one. First, we create a new property in our layout subclass:
 
