@@ -2,13 +2,6 @@
 
 [![Yet Another Swift Blog](/assets/images/swift-logo.svg)](https://www.vadimbulavin.com/)
 
-*   [Home](/)
-*   [Tips](/tips/)
-*   [About](/aboutme/)
-
-[](https://twitter.com/V8tr)[](/cdn-cgi/l/email-protection#d8aeb9bca1b5baadb4b9aeb1b698bfb5b9b1b4f6bbb7b5)[](/feed.xml)[](https://facebook.com/vadim.bulavin)
-
-14 October 2018 / [IOS](/tag/ios/)
 
 Collection View with Sticky Rows and Columns: Step by Step Tutorial
 ===================================================================
