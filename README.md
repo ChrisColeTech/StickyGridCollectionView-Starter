@@ -1,5 +1,3 @@
-    Collection View with Sticky Rows and Columns: Step by Step Tutorial          .hljs { background: none; }                             { "@context": "https://schema.org", "@type": "Website", "publisher": { "@type": "Organization", "name": "Yet Another Swift Blog", "logo": "https://www.vadimbulavin.com/assets/images/swift-logo.svg" }, "url": "https://www.vadimbulavin.com/sticky-grid-collection-view/", "image": { "@type": "ImageObject", "url": "https://www.vadimbulavin.com/assets/images/posts/sticky-grid-collection-view/cover.png", "width": 2000, "height": 666 }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.vadimbulavin.com/sticky-grid-collection-view/" }, "description": "In this article you will learn how to implement collection view that has sticky rows and columns, and supports both vertical and horizontal scrolling using Swift." }  
-
 [![Yet Another Swift Blog](/assets/images/cover.png)](https://www.vadimbulavin.com/)
 
 
